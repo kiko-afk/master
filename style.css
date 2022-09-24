@@ -1,0 +1,21 @@
+/* Ahora vamos a agregarle el archivo style.css a la rama test.
+   Primero debemos ir a la rama test con "git checkout test" y comprobar que 
+   estamos en ella con "git branch", luego adjuntamos el archivo a la rama con "git add ." y 
+   lo registramos con "git commit -m", comprobamos con "git log --oneline"
+   y lo subimos a github con "git push -u origin" */
+
+body{
+    background-color: aliceblue;
+    padding: 30px;
+    text-align: center;
+    font-size: 80px;
+}
+header{
+    background-color: aqua;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
